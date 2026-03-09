@@ -1,0 +1,30 @@
+{
+  "name": "cybership-shipping-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "test-sample": "ts-node src/example.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "tsoa:routes": "tsoa routes",
+    "tsoa:spec": "tsoa spec"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1",
+    "tsoa": "^7.0.0-alpha.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/swagger-ui-express": "^4.1.8",
+    "nock": "^13.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0",
+    "vitest": "^1.5.0"
+  }
+}
