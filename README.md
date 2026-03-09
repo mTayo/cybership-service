@@ -1,7 +1,7 @@
 
 # Cybership Carrier Integration Service
 
-A production-grade microservice for carrier rate calculation, featuring a modular monolith architecture that abstracts complex shipping provider logic behind a unified API.
+A carrier rate calculation service which features a modular monolith architecture that abstracts complex shipping provider logic behind a unified API.
 
 ##  Architecture & Design Patterns
 
